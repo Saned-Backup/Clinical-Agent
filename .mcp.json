@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "gitea": {
+      "command": "node",
+      "args": ["src/connector.js"],
+      "env": {
+        "GITEA_API_URL": "https://api.github.com",
+        "GITEA_OWNER": "Saned-Backup"
+      }
+    }
+  }
+}

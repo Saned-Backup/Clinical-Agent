@@ -1,0 +1,18 @@
+{
+  "name": "gitea-mcp-connector",
+  "version": "1.0.0",
+  "description": "Gitea MCP Connector for Clinical-Agent - connects Claude Code to Gitea/GitHub repositories via MCP",
+  "type": "module",
+  "main": "src/connector.js",
+  "scripts": {
+    "start": "node src/connector.js",
+    "list-repos": "node src/list-repos.js",
+    "test-connection": "node src/test-connection.js"
+  },
+  "dependencies": {
+    "@boringstudio_org/gitea-mcp": "^1.8.0",
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "axios": "^1.7.0",
+    "dotenv": "^16.4.0"
+  }
+}
